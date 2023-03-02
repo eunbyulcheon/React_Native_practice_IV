@@ -37,14 +37,14 @@ const Home = () => {
 				data={cleanData}
 				keyExtractor={(item) => item.id}
 				renderItem={({ item }) => (
-					<Coin index={item.index} symbol={item.symbol} />
+					<Coin id={item.id} index={item.index} symbol={item.symbol} />
 				)}
 			/>
 		</Container>
 	);
 };
 
-const Loader = styled.View`
+export const Loader = styled.View`
 	flex: 1;
 	justify-content: center;
 	align-items: center;
