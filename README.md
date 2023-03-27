@@ -1,3 +1,5 @@
+# Social App
+
 ## Description 
 
 A social cryptocurrency tracking app built with React Native and Firebase. 
